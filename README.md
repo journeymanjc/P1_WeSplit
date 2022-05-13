@@ -11,4 +11,4 @@
     ```.currency(code: Locale.current.currencyCode ?? "USD"))```
   - Hiding the keyboard 
     ```@FocusState private var amountIsFocused : Bool``` : This is exactly like @State but made specially for to handle input focus in the UI.
-    '''.focused($amountIsFocused)```
+    ```.focused($amountIsFocused)```
