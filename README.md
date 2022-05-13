@@ -9,4 +9,6 @@
 ###### Day 17
   - Locale : a massive struct built into iOS that is responsible for storing all the user's region settings.  
     ```.currency(code: Locale.current.currencyCode ?? "USD"))```
-      
+  - Hiding the keyboard 
+    ```@FocusState private var amountIsFocused : Bool``` : This is exactly like @State but made specially for to handle input focus in the UI.
+    '''.focused($amountIsFocused)```
