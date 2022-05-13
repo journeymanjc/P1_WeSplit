@@ -11,6 +11,4 @@
     ```.currency(code: Locale.current.currencyCode ?? "USD"))```
   - Hiding the keyboard 
     ```@FocusState private var amountIsFocused : Bool``` : This is exactly like @State but made specially for to handle input focus in the UI.  
-    ```					 TextField("Amount", value:$checkAmount, format: currencyFormatToUse)
-						 .keyboardType(.decimalPad)
-						 .focused($amountIsFocused)```
+    ```	TextField("Amount", value:$checkAmount, format: currencyFormatToUse).focused($amountIsFocused)```
