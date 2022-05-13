@@ -7,6 +7,6 @@ Day 16
   - Binding state to user interface controls : Need to use 2 way binding like 
       @State private var name = "" and then TextField("Enter your name", text: $name) $means two way binding.
 Day 17
-  - Locale : a massive struct built into iOS that is responsible for storing all the user's region settings.
+  - Locale : a massive struct built into iOS that is responsible for storing all the user's region settings. \n
     ```.currency(code: Locale.current.currencyCode ?? "USD"))```
       
