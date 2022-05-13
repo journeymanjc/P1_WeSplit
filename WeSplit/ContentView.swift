@@ -14,7 +14,7 @@ struct ContentView: View {
 	@State private var numberOfPeople = 2
 	@State private var tipPercentage = 20
 	
-	let tipPercentages = [10,15,20,25,0]
+	let tipPercentages = [10,15,25,0]
 	
 	var peopleCount: Double{
 		Double(numberOfPeople + 2)
